@@ -13,7 +13,7 @@ const HeaderSelector = (props) => {
   const [mbMenu, setMbMenu] = useState(false)
   const isAdmin = web.user.role
   console.log(isAdmin, props.author, web)
-
+  
   const fakeMenu = {
     menu: [
       {
@@ -26,14 +26,9 @@ const HeaderSelector = (props) => {
         name: 'Bài đăng',
         path: '/posts',
       },
-      {
-        id: 3,
-        name: 'Danh mục',
-        path: '',
-      }
     ],
   }
-
+  
   const toggleChildMenu = () => {
     setChildMenu(!childMenu)
   }
@@ -60,6 +55,7 @@ const HeaderSelector = (props) => {
                     {item.name}
                   </Link>
                 </li>
+                
               )
             }
           </ul>
@@ -111,10 +107,11 @@ const HeaderSelector = (props) => {
                 </div>
             }
             
+
           </div>
           
         </div>
-        <div><p><h2>Studying Together - Nơi cộng đồng cùng nhau nâng cao kiến thức lập trình</h2></p></div>
+        <div className='slogan'><p><h2>Studying Together - Nơi cộng đồng nâng cao kiến thức lập trình</h2></p></div>
 
 
 

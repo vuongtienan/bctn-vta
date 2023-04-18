@@ -30,6 +30,7 @@ const MainTemplateSelector = (props) => {
                 
             </div>
             <Footer site={siteInfo} />
+            
         </>
     )
 }

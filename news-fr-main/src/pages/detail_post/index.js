@@ -295,7 +295,7 @@ const DetailEl = (props) => {
               {
                 relatedPosts && relatedPosts.length > 1 &&
                 <div className='detail-relation-container'>
-                  <p class='relate'>Related posts</p>
+                  <p class='relate'>Cùng thể loại</p>
                   <ul>
                     {
                       relatedPosts.map((item, index) => {

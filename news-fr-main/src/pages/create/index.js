@@ -8,9 +8,9 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
 import getImage from '../../utils/getImage'
 
 const defaultValue = {
-  select: 'Choose',
+  select: 'Chọn',
   title: 'Title',
-  shortDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat ut facilisis rutrum donec tristique mauris est ac nunc. Eget nec, lorem mi libero accumsan',
+  shortDesc: 'Describe',
   category: 'Category',
   source: null
 }
@@ -149,7 +149,7 @@ const Create = () => {
             <div className='create-form'>
               <div className='create-title'>
                 <label htmlFor='create_title'>Tiêu đề</label>
-                <input ref={titleEl} onChange={(e) => { changeTitle(e) }} placeholder='ex: How to create React app' id='create_title' />
+                <input ref={titleEl} onChange={(e) => { changeTitle(e) }} placeholder='Tên bài đăng' id='create_title' />
                 <p>Tiêu đề của bài viết...</p>
               </div>
               <div className='create-category'>

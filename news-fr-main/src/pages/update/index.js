@@ -9,7 +9,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
 import { connect } from 'react-redux'
 
 const defaultValue = {
-  select: 'choose'
+  select: 'Chọn'
 }
 
 const UpdateEl = (props) => {
@@ -181,7 +181,7 @@ const UpdateEl = (props) => {
             <div className='create-form'>
               <div className='create-title'>
                 <label htmlFor='create_title'>Tiêu đề</label>
-                <input ref={titleEl} onChange={(e) => { changeTitle(e) }} placeholder='vd: How to create React app' id='create_title' />
+                <input ref={titleEl} onChange={(e) => { changeTitle(e) }} placeholder='Tên bài đăng' id='create_title' />
                 <p>Tiêu đề của bài viết...</p>
               </div>
               <div className='create-category'>

@@ -235,7 +235,8 @@ const PostListSelector = (props) => {
                           <i className="far fa-comments"></i>
                           <span>{item.comment && item.comment.length || 0}</span>
                         </button>
-                        <button className='share'>
+                        <button className='share' >
+                        
                           <i className="fas fa-share"></i>
                         </button>
                         <button className='add'>

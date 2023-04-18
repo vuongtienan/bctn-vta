@@ -2,7 +2,7 @@
   "name": "expessjs",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "http://vuongtienan.github.io/",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
@@ -33,6 +33,6 @@
   "bugs": {
     "url": "https://github.com/buimanh1711/expressAPI/issues"
   },
-  
+  "homepage": "https://github.com/buimanh1711/expressAPI#readme",
   "description": ""
 }
